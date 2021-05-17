@@ -20,7 +20,7 @@ type Configuration struct {
 
 func Load() *Configuration {
 	var configuration Configuration
-	jsonFile, err := os.Open("./app/config.json")
+	jsonFile, err := os.Open("./src/app/config.json")
 	if err != nil {
 		panic(err)
 	}

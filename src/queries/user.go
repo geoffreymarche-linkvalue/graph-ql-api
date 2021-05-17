@@ -2,7 +2,7 @@ package queries
 
 import (
 	"github.com/graphql-go/graphql"
-	"github.com/graph-ql-api/src/types"
+	"github.com/geoffreymarche-linkvalue/graph-ql-api/src/types"
 )
 
 // GetUserQuery returns the queries available against user type.
